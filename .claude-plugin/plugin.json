@@ -1,0 +1,13 @@
+{
+  "name": "ucp-toolkit",
+  "version": "1.0.0",
+  "description": "Development toolkit for Universal Commerce Protocol (UCP) - schema design, validation, type generation, and spec documentation",
+  "author": {
+    "name": "UCP Development Team",
+    "email": "ben@ibracob.dev"
+  },
+  "repository": "https://github.com/ibraschwan/ucp-plugin",
+  "homepage": "https://github.com/ibraschwan/ucp-plugin",
+  "license": "MIT",
+  "keywords": ["ucp", "commerce", "protocol", "schema", "openapi", "openrpc", "json-schema"]
+}

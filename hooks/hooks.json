@@ -1,0 +1,29 @@
+{
+  "description": "UCP development hooks for schema validation",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Check if this file operation affects UCP schemas (files in source/schemas/ or with .json extension containing $schema). If it does, verify: 1) Valid JSON syntax, 2) Has $schema and $id if it's a schema file, 3) UCP annotations present for request/response definitions. Return 'approve' if valid or not a schema file, 'deny' with reason if invalid schema.",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If a UCP schema file was just modified (in source/schemas/ or generated/), remind the user to run validation with '/validate' and regenerate specs with '/generate' if needed. Keep the reminder brief.",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
