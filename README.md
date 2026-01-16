@@ -1,6 +1,8 @@
 # UCP Toolkit Plugin
 
-Development toolkit for the Universal Commerce Protocol (UCP). Provides schema design guidance, validation tools, and spec generation commands.
+Development toolkit for the [Universal Commerce Protocol (UCP)](https://ucpstore.dev). Provides schema design guidance, validation tools, and spec generation commands.
+
+**Website:** [ucpstore.dev](https://ucpstore.dev) | **Documentation:** [docs.ucpstore.dev](https://docs.ucpstore.dev)
 
 ## Contact & Business Inquiries
 
@@ -149,4 +151,4 @@ MIT
 
 ---
 
-**Questions?** Contact **ben@ibracob.dev**
+**Website:** [ucpstore.dev](https://ucpstore.dev) | **Docs:** [docs.ucpstore.dev](https://docs.ucpstore.dev) | **Contact:** **ben@ibracob.dev**

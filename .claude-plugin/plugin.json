@@ -7,7 +7,8 @@
     "email": "ben@ibracob.dev"
   },
   "repository": "https://github.com/ibraschwan/ucp-plugin",
-  "homepage": "https://github.com/ibraschwan/ucp-plugin",
+  "homepage": "https://ucpstore.dev",
+  "documentation": "https://docs.ucpstore.dev",
   "license": "MIT",
   "keywords": ["ucp", "commerce", "protocol", "schema", "openapi", "openrpc", "json-schema"]
 }
